@@ -1,0 +1,24 @@
+.page-header {
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,0.10);
+    line-height: 65px;
+    
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.page-header-logo {
+    text-decoration: none;
+    color: #1677FF;
+    font-size: 2rem;
+}
+
+.page-header__end {
+    
+}
+
+.page-header__email {
+    margin: 0 10px 0 20px;
+    color: #1677FF;
+}

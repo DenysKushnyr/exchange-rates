@@ -1,0 +1,25 @@
+.currency-chart-buttons {
+    position: relative;
+    text-align:center;
+}
+
+button ~ button {
+    margin-left: 15px;
+}
+
+.currency-chart-buttons .current-rate {
+    position: absolute;
+    right: 0;
+    margin-left: auto;
+}
+
+.currency-chart-buttons .data-source {
+    position: absolute;
+    left: 0;
+    margin-left: auto;
+}
+
+.sub-options {
+    margin-left: 20px;
+    display: inline-block;
+}
